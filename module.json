@@ -1,0 +1,79 @@
+{
+  "id": "wagham-quickstart",
+  "title": "Wagham Quickstart",
+  "description": "A FoundryVTT module, including all the assets for the Wagham Quickstart, in conviniet Compendia.",
+  "authors": [
+    {
+      "name": "Calcifer",
+      "flags": {}
+    },
+    {
+      "name": "Testa di Rapa",
+      "flags": {}
+    }
+  ],
+  "version": "1.1.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "packs": [
+    {
+      "name": "monsters",
+      "system": "dnd5e",
+      "label": "Monsters",
+      "path": "packs/monsters.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "system": "dnd5e",
+      "label": "Spells",
+      "path": "packs/spells.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "subclasse-features",
+      "system": "dnd5e",
+      "label": "Subclass Features",
+      "path": "packs/subclasse-features.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "subclasses",
+      "system": "dnd5e",
+      "label": "Subclasses",
+      "path": "packs/subclasses.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "feats",
+      "system": "dnd5e",
+      "label": "Feats",
+      "path": "packs/feats.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "scenes",
+      "system": "dnd5e",
+      "label": "Scenes",
+      "path": "packs/scenes.db",
+      "type": "Scene",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "download": "https://github.com/stschoelzel/My-Shared-Compendia/archive/v1.3.0.zip",
+  "manifest": "https://github.com/stschoelzel/My-Shared-Compendia/releases/latest/download/module.json",
+  "url": "https://github.com/stschoelzel/My-Shared-Compendia"
+}
