@@ -87,6 +87,7 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          branch: main
           commit_message: Updated version
           commit_user_name: Il Regno di Wagham
           commit_user_email: info@wagham.it
