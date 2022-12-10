@@ -32,4 +32,4 @@ jobs:
           value: ${{ steps.bump_version.outputs.next-version }}
 
       - name: Push commit and tag ↗️
-        run: git push
+        run: git add . && git commit -m "Updated version" && git push
