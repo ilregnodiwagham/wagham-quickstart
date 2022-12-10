@@ -31,5 +31,9 @@ jobs:
           field: version
           value: ${{ steps.bump_version.outputs.next-version }}
 
-      - name: Push commit and tag ↗️
-        run: git add . && git commit -m "Updated version" && git push
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Updated version
+          commit_user_name: Wagham Bot
+          commit_user_email: info@wagham.it
+          commit_author: Wagham Bot
