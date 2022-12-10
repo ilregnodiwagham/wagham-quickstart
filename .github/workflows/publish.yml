@@ -1,0 +1,48 @@
+name: Release management
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - 'main'
+
+jobs:
+  if_merged:
+    name: Create a new release of the Compendium
+    if: github.event.pull_request.merged == true && (contains(github.event.pull_request.labels.*.name, 'major') || contains(github.event.pull_request.labels.*.name, 'minor') || contains(github.event.pull_request.labels.*.name, 'patch'))
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Extract version from module.json
+        uses: sergeysova/jq-action@v2
+        id: version
+        with:
+          cmd: 'jq .version module.json -r'
+
+      - name: Creation new version (Major) 🏷️
+        if: ${{ contains(github.event.pull_request.labels.*.name, 'major') }}
+        id: bump_version_major
+        uses: christian-draeger/increment-semantic-version@1.0.3
+        with:
+          current-version: ${{ steps.version.outputs.value }}
+          version-fragment: 'major'
+
+      - name: Creation new version (Minor) 🏷️
+        if: ${{ contains(github.event.pull_request.labels.*.name, 'minor') }}
+        id: bump_version_minor
+        uses: christian-draeger/increment-semantic-version@1.0.3
+        with:
+          current-version: ${{ steps.version.outputs.value }}
+          version-fragment: 'feature'
+
+      - name: Creation new version (Patch) 🏷️
+        if: ${{ contains(github.event.pull_request.labels.*.name, 'patch') }}
+        id: bump_version_minor
+        uses: christian-draeger/increment-semantic-version@1.0.3
+        with:
+          current-version: ${{ steps.version.outputs.value }}
+          version-fragment: 'bug'
