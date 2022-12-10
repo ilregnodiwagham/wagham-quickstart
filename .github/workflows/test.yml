@@ -36,4 +36,3 @@ jobs:
           commit_message: Updated version
           commit_user_name: Il Regno di Wagham
           commit_user_email: info@wagham.it
-          commit_author: Il Regno di Wagham
