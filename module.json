@@ -21,7 +21,7 @@
     {
       "name": "monsters",
       "system": "dnd5e",
-      "label": "Monsters",
+      "label": "Monsters (Shady Affairs)",
       "path": "packs/monsters.db",
       "type": "Actor",
       "private": false,
@@ -30,7 +30,7 @@
     {
       "name": "spells",
       "system": "dnd5e",
-      "label": "Spells",
+      "label": "Spells (Shady Affairs)",
       "path": "packs/spells.db",
       "type": "Item",
       "private": false,
@@ -39,7 +39,7 @@
     {
       "name": "subclasse-features",
       "system": "dnd5e",
-      "label": "Subclass Features",
+      "label": "Subclass Features (Shady Affairs)",
       "path": "packs/subclasse-features.db",
       "type": "Item",
       "private": false,
@@ -48,7 +48,7 @@
     {
       "name": "subclasses",
       "system": "dnd5e",
-      "label": "Subclasses",
+      "label": "Subclasses (Shady Affairs)",
       "path": "packs/subclasses.db",
       "type": "Item",
       "private": false,
@@ -57,7 +57,7 @@
     {
       "name": "feats",
       "system": "dnd5e",
-      "label": "Feats",
+      "label": "Feats (Shady Affairs)",
       "path": "packs/feats.db",
       "type": "Item",
       "private": false,
@@ -66,7 +66,7 @@
     {
       "name": "scenes",
       "system": "dnd5e",
-      "label": "Scenes",
+      "label": "Scenes (Shady Affairs)",
       "path": "packs/scenes.db",
       "type": "Scene",
       "private": false,
