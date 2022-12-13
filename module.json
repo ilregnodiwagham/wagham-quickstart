@@ -37,7 +37,7 @@
       "flags": {}
     },
     {
-      "name": "subclasse-features",
+      "name": "subclasses-features",
       "system": "dnd5e",
       "label": "Subclass Features (Shady Affairs)",
       "path": "packs/subclasse-features.db",
