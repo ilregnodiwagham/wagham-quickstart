@@ -40,6 +40,7 @@
       "name": "subclasses-features",
       "system": "dnd5e",
       "label": "Subclass Features (Shady Affairs)",
+      "path": "packs/subclasses-features.db",
       "type": "Item",
       "private": false,
       "flags": {}
