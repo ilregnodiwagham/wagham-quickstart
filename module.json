@@ -77,12 +77,12 @@
       "system": "dnd5e",
       "label": "Adventure (Shady Affairs)",
       "path": "packs/adventure-wagham-quickstart.db",
-      "type": "Scene",
+      "type": "JournalEntry",
       "private": false,
       "flags": {}
     },
     {
-      "name": "Journals",
+      "name": "journalentry",
       "system": "dnd5e",
       "label": "Journal Entries (Shady Affairs)",
       "path": "packs/journalentry.db",
@@ -91,7 +91,7 @@
       "flags": {}
     },
     {
-      "name": "Journals",
+      "name": "rolltables",
       "system": "dnd5e",
       "label": "Missions (Shady Affairs)",
       "path": "packs/rolltables.db",
