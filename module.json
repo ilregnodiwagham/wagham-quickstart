@@ -40,7 +40,6 @@
       "name": "subclasses-features",
       "system": "dnd5e",
       "label": "Subclass Features (Shady Affairs)",
-      "path": "packs/subclasses-features.db",
       "type": "Item",
       "private": false,
       "flags": {}
@@ -69,6 +68,33 @@
       "label": "Scenes (Shady Affairs)",
       "path": "packs/scenes.db",
       "type": "Scene",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "adventure",
+      "system": "dnd5e",
+      "label": "Adventure (Shady Affairs)",
+      "path": "packs/adventure-wagham-quickstart.db",
+      "type": "Scene",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "Journals",
+      "system": "dnd5e",
+      "label": "Journal Entries (Shady Affairs)",
+      "path": "packs/journalentry.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "Journals",
+      "system": "dnd5e",
+      "label": "Missions (Shady Affairs)",
+      "path": "packs/rolltables.db",
+      "type": "RollTable",
       "private": false,
       "flags": {}
     }
