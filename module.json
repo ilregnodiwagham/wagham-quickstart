@@ -12,7 +12,7 @@
       "flags": {}
     }
   ],
-  "version": "1.4.10",
+  "version": "1.4.11",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -100,7 +100,7 @@
       "flags": {}
     }
   ],
-  "download": "https://github.com/ilregnodiwagham/wagham-quickstart/releases/download/1.4.10/Release_v_1.4.10.zip",
+  "download": "https://github.com/ilregnodiwagham/wagham-quickstart/releases/download/1.4.11/Release_v_1.4.11.zip",
   "manifest": "https://raw.githubusercontent.com/ilregnodiwagham/wagham-quickstart/main/module.json",
   "url": "https://github.com/ilregnodiwagham/wagham-quickstart"
 }
